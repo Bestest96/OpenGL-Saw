@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{dc2980d7-ad9b-4d9e-b5ce-34953f0bf678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shprogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuboid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Saw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HalfCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="light_source.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="light_source.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="texture.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bottom.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bottom.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wood_cuboid.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cuboid.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Saw.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="shprogram.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="HalfCylinder.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
